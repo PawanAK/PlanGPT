@@ -1,5 +1,5 @@
 import React from "react";
-import "./chatwindow.css";
+import "./ChatWindow.css";
 
 const ChatWindow = ({ chats, isTyping, message, setMessage, chat }) => {
   const handleCopy = (content) => {
